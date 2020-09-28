@@ -1,0 +1,4 @@
+Program Example1; (* Example 1 *)
+Begin
+	12345 <> 6789
+End. (* Example1 *)

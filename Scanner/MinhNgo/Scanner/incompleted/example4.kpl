@@ -1,0 +1,6 @@
+Program Example4; (* Example 4 *)
+Var n : Integer;
+Begin
+	n := 2147483647;
+	WRITES("const string");
+End. (* Example 4 *)
