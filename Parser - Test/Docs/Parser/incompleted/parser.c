@@ -676,7 +676,7 @@ void compileCondition(void) {
 void compileCondition2(void) {
   // TODO
   assert("COMPILE EXPRESSION TWOOOOOOOOOOOOOOOOOO");
-  switch (lookAhead->tokenType) {
+  switch (lookAhead->tokenType) { 
     case SB_EQ:
       eat(SB_EQ);
       break;
@@ -735,7 +735,7 @@ void compileExpression3(void) {
     compileTerm();
     compileExpression3();
     break;
-    // check the FOLLOW set
+    // check the FOLLOW set (cai l gi day? check gi the)
   case KW_TO:
   case KW_DO:
   case SB_RPAR:
